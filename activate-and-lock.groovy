@@ -47,7 +47,7 @@ def updated() {
     log.debug "Updated with settings: ${settings}"
     unsubscribe()
     initialize()
-}
+} 
 
 def initialize() {
     subscribe(theswitch, "switch", handler)
